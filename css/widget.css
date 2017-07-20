@@ -1,1 +1,37 @@
-/* This stylesheet is used to style the public view of the widget. */
+
+/* @start wp-swift-fancy-contact-widget style */
+div.wp-swift-fancy-contact-widget {
+  margin-bottom: 17px; }
+  div.wp-swift-fancy-contact-widget h3, div.wp-swift-fancy-contact-widget h5, div.wp-swift-fancy-contact-widget #home-page-benefits header h4, #home-page-benefits header div.wp-swift-fancy-contact-widget h4 {
+    margin: 0;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200; }
+  div.wp-swift-fancy-contact-widget .image {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  div.wp-swift-fancy-contact-widget .wrapper {
+    background-color: rgba(17, 54, 77, 0.5);
+    padding: 2rem; }
+  div.wp-swift-fancy-contact-widget hr {
+    max-width: 8rem;
+    border-bottom: 1px solid #fefefe;
+    margin: 0.5rem auto;
+    margin-bottom: 1.2rem; }
+  div.wp-swift-fancy-contact-widget a.button.orange {
+    color: #fefefe;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    padding: 0.5em 1.2em;
+    letter-spacing: 4px;
+    font-weight: 700; }
+  div.wp-swift-fancy-contact-widget p {
+    color: #fefefe;
+    margin-bottom: 0;
+    font-family: "Oswald", sans-serif; }
+
+/* @end wp-swift-fancy-contact-widget style */
