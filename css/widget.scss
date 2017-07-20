@@ -1,0 +1,44 @@
+/* @start wp-swift-fancy-contact-widget style */
+$widget-margin-bottom: 17px;
+div.wp-swift-fancy-contact-widget {
+	margin-bottom: $widget-margin-bottom;
+	h3, h5 {
+		margin: 0;
+		color: $white;
+		text-transform: uppercase;
+		font-family: $oswald;
+		letter-spacing: 2px;
+		font-weight: 200;
+	}
+	.image {
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	}	
+	.wrapper {
+		background-color: rgba($navy, 0.5);
+		padding: 2rem;
+	}
+	hr {
+		max-width: 8rem;
+		border-bottom: 1px solid $white;
+		margin: 0.5rem auto;
+		margin-bottom: 1.2rem;
+	}
+	a.button.orange {
+		color: $white;
+		text-transform: uppercase;
+		font-family: $oswald;
+		padding: 0.5em 1.2em;
+		letter-spacing: 4px;
+		font-weight: 700;
+	}	
+	p {
+		color: $white;
+		margin-bottom: 0;
+		font-family: $oswald;
+		@extend .lead;
+	}		
+}
+/* @end wp-swift-fancy-contact-widget style */
